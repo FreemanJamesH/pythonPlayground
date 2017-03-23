@@ -4,7 +4,6 @@ import numpy as np
 
 
 
-cap.release()
-cv2.destroyAllWindows()
 
-# print 'helo'
+cv2.waitKey()
+cv2.destroyAllWindows()
