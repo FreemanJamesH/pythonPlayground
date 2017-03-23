@@ -20,15 +20,7 @@ while True:
 
     cv2.circle(frame, (320, 75), 15, (155,155,255), -1)
     cv2.imshow('Webcam feed', frame)
-#
-#
-#
     if cv2.waitKey(1) == 13:
-        break
-#
-#
-#
+
 cap.release()
 cv2.destroyAllWindows()
-
-# print 'helo'
